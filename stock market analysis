@@ -1,3 +1,5 @@
+You can use the Airflow to extract the Api 
+
 Create a directory named assignment
 detest@UbuntuDE:~$ mkdir assignment
 Data extraction from api through Nifi
@@ -179,18 +181,6 @@ detest@UbuntuDE:~$ airflow scheduler
 In this Dag the Autoregressive model used for predicting the stock prices
 After Running Dag following charts are formed.
 
-
-
-
-
-
-
-
-
-
-
-
-
 The following chart shows a comparison between the Predicted and Expected stock prices. 
 
 After taking glance of this chart the model is perfectly fit and you can check the predicted values also (the model stores expected and predicted values in the prediction.csv file).
@@ -198,3 +188,5 @@ After taking glance of this chart the model is perfectly fit and you can check t
 You can check the accuracy of model
   
 Here the error is too small compared to the size of the data, So the model is perfectly fit.
+
+you can use another prediction algorithms also.
